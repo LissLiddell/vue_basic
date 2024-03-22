@@ -1,22 +1,22 @@
  <!--  <template>
-aqui va codigo html , etiquetas,div,input,h1  
+aqui va codigo html , etiquetas,div,input,h1                      VISTA
 </template> --> 
 
 <!-- <script lang="ts" lang ts indica que se usa type script> 
-Logica, datos, funcionamiento
+Logica, datos, funcionamientoj                                    MODELO
 </script>-->
 
 <!-- <style>
-estilos
+estilos                                                           ESTILOS
 </style>-->
-
 <template>
-
-  <h1>Hola mundo!</h1>
-
+  <h1>Listado de posts:</h1>
+  <PostContainer />
 </template>
 
-<script lang="ts">
+
+<script lang="ts" setup>
+   import PostContainer from'./components/PostContainer.vue'
 </script>
 
 <style>
