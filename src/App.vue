@@ -10,13 +10,13 @@ Logica, datos, funcionamientoj                                    MODELO
 estilos                                                           ESTILOS
 </style>-->
 <template>
-  <h1>Listado de posts:</h1>
-  <PostContainer />
+  <CounterCompositionAPI />
 </template>
 
 
 <script lang="ts" setup>
-   import PostContainer from'./components/PostContainer.vue'
+   import CounterOptionAPI from'./components/CounterOptionAPI.vue'
+   import CounterCompositionAPI from'./components/CounterCompositionAPI.vue' 
 </script>
 
 <style>
