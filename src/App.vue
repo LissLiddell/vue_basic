@@ -11,11 +11,13 @@ estilos                                                           ESTILOS
 </style>-->
 <template>
   <CounterCompositionAPI />
+  <CounterCompositionAPI />
+  <CounterCompositionAPI />
 </template>
 
 
 <script lang="ts" setup>
-   import CounterOptionAPI from'./components/CounterOptionAPI.vue'
+//   import CounterOptionAPI from'./components/CounterOptionAPI.vue'
    import CounterCompositionAPI from'./components/CounterCompositionAPI.vue' 
 </script>
 
